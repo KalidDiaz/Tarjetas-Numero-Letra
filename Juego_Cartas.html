@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Game / Juego de tarjetas</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<header>
+		<h1 id="titulo" align="center">Agilidad Mental</h1>
+	</header>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-sx-3 col-lg-3"></div>
+
+			<div class="col-sx-6 col-lg-6" id="grey">
+				<div id="countdownExample">
+					<div class="values"></div>
+				</div>
+				<h3><center>&iquestEl numero es par?</center></h3>
+				<div class = "row justify-content-center">					
+					<textarea disabled="" id = "TopCard" class="textArea" style="background: "></textarea>
+						
+				</div>
+				<label id="texto"></label>
+				<br>
+				<br>
+				<div class = "row justify-content-center">
+					<textarea disabled id = "BotCard"></textarea>	
+				</div>
+				<h3><center>&iquestLa letras es una vocal?</center></h3>
+				<br>
+				<br>
+				<form>
+					<center>
+					<button input type = "button" class = "btn btn-danger btn-lg" onclick = "CheckAnwswer(0)" style = 'width:85px; height:50px'>No</button>
+					<button input type = "button" class = "btn btn-success btn-lg" onclick = "CheckAnwswer(1)" style = "width:85px; height: 50px"> Si</button>
+					</center>
+				</form>
+				<div>
+					<label>Total</label>
+					<label id = "total">0</label>
+				</div>
+			</div>
+
+			<div class="col-sx-3 col-lg-3"></div>
+		</div>
+	</div>
+	<footer></footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script type="text/javascript" src = "LibreriaTimer.js"></script>
+<script type="text/javascript" src = "Generador_LetraNumero.js"></script>
+<script type="text/javascript" src = "jquery-3.2.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+header {
+	background:#3e4444;
+	color: white;
+}
+
+body {
+	background-image: url("Swoosh_glow_by_dobee.jpg");
+
+}
+
+#titulo {
+	color: white;
+	font-family: verdana, cursive;
+}
+
+#grey {
+  background-color: #D8DFE1;
+}
+#rows {
+	background-color: #B1BDD3;
+}
+
+#centralrow {
+	background-color: #B3B0B1;
+}
+
+footer {
+	background: #3e4444;
+	color:#fff;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 40px;
+}
